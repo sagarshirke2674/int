@@ -24,10 +24,10 @@
 
 
     - name: stop previous back-end container
-      shell: docker rm -f sagarshirke2674/spe:cc1
+      shell: docker rm -f sagarshirke2674/spe:ss1
 
     - name: stop previous front-end container
-      shell: docker rm -f sagarshirke2674/spe:ss1
+      shell: docker rm -f sagarshirke2674/spe:cc1
 
 
     - name: running docker compose file
